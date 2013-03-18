@@ -49,7 +49,7 @@
 				<configuration>
 					<instructions>
 						<_exportcontents>
-							net.sf.jodreports.*;version=${project.version}
+							net.sf.jooreports.*;version=${project.version}
 						</_exportcontents>
 
 						<!--
