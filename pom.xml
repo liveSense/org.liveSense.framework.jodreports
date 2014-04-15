@@ -21,10 +21,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.livesense</groupId>
-		<artifactId>org.liveSense.parent</artifactId>
-		<version>2-SNAPSHOT</version>
+        <artifactId>org.liveSense.parent</artifactId>
+        <version>1.0.3</version>
 		<relativePath>..</relativePath>
 	</parent>
+    <version>1.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.framework.jodreports.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.framework.jodreports.git</developerConnection>
@@ -33,7 +34,6 @@
 
 	<artifactId>org.liveSense.framework.jodreports</artifactId>
 	<packaging>bundle</packaging>
-	<version>2.4.0_1-SNAPSHOT</version>
 	<name>liveSense :: Framework :: JODReports</name>
 	<description>
 		liveSense JODReports framework
