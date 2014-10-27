@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-framework-jodreports" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 	<feature name="liveSense-framework-jodreports" version="${liveSense.framework.jodreports.version}" description="liveSense framework jodreports">
-        <feature>liveSense-core-apache-commons</feature>
+        <feature>apache-commons</feature>
         <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.freemarker/2.3.18_1</bundle>
 		<bundle dependency="true">mvn:xom/xom/1.2.5</bundle>
 		<bundle>mvn:com.github.livesense/org.liveSense.framework.jodreports/${liveSense.framework.jodreports.version}</bundle>
